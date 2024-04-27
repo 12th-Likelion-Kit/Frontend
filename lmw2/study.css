@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.search {
+    margin: 10px;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.search img {
+    background-color: orange;
+    height: 40px;
+    width: 50px;
+}
+
+.search-box {
+    width: 400px;
+    height: 40px;
+    border: 5px solid orange;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.selection ul {
+    display: flex;
+
+}
+
+.selection li {
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.search {
+    display: flex;
+}
+
+.hr-box {
+    margin: 20px;
+}
+
+.hr-box hr {
+    color: orange;
+}
+
+.hr-box nav {
+    display: flex;
+    position: relative;
+    left: 80px;
+}
+
+.hr-box nav h4 {
+    margin: 10px;
+}
+
+.hr-box nav ul {
+    display: flex;
+}
+
+.hr-box nav ul li {
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    width: 60%;
+    border: 1px solid black;
+}
+
+.main-content img {
+    width: 100%;
+    padding: 5px;
+}
+
+.nav {
+    width: 30%;
+    border: 1px solid black;
+}
+
+.bootcamp {
+    margin: 20px 5px;
+}
+
+.bootcamp h4 {
+    padding: 10px;
+    background-color: orange;
+}
+
+.btcmp-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 60px 60px 60px;
+    background-color: beige;
+}
+
+.btcmp-container li {
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px;
+}
+
+.btcmp-container li:nth-child(1) {
+    color: blue;
+}
+
+.btcmp-container li:nth-child(2) {
+    color: rgb(116, 46, 46);
+}
+
+.btcmp-container li:nth-child(3) {
+    color: rgb(0, 255, 64);
+}
+
+.btcmp-container li:nth-child(4) {
+    color: rgb(215, 33, 224);
+}
+
+.btcmp-container li:nth-child(5) {
+    color: rgb(135, 95, 49);
+}
+
+.btcmp-container li:nth-child(6) {
+    color: rgb(151, 117, 31);
+}
+
+.btcmp-container li:nth-child(7) {
+    color: rgb(67, 144, 58);
+}
+
+.btcmp-container li:nth-child(8) {
+    color: rgb(30, 97, 48);
+}
+
+.btcmp-container li:nth-child(9) {
+    color: rgb(115, 79, 20);
+}
+
+.likelioninfo {
+    margin: 20px 5px;
+}
+
+.likelioninfo h4 {
+    padding: 10px;
+    background-color: orange;
+}
+
+.likelioninfo ul {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.likelioninfo ul li {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.likelioninfo ul li img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+.likelioninfo ul li p {
+    margin-top: 15px;
+}
+
+
+.loginform {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .input {
+    margin: 5px;
+    width: 80%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+}
+
+.login button {
+    margin: 5px;
+    width: 20%;
+    height: 60px;
+}
+
+.idinput {
+    position: relative;
+    left: 8px;
+    width: 155px;
+    padding: 5px;
+}
+
+.pwinput {
+    width: 155px;
+    padding: 5px;
+}
+
+.loginform button {
+    margin: 5px;
+}
+
+.nav img {
+    width: 100%;
+}
+
+.nav h4 {
+    margin: 5px;
+    background-color: orange;
+    padding: 10px;
+}
+
+.candidates {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.candidates img {
+    padding: 10px;
+}
