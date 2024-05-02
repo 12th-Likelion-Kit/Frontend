@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* 헤더 */
+header {
+  margin-top: 15px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.logo img {
+  margin-right: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+/* 검색 */
+.search,
+nav,
+nav ul {
+  display: flex;
+}
+
+.search {
+  align-items: center;
+}
+
+.search-button {
+  margin-left: 5px;
+  height: 45px;
+  border: none;
+  cursor: pointer; /*마우스 커서 포인터로*/
+}
+
+.search-button img {
+  height: 45px;
+  background-color: orange;
+}
+
+.search-box {
+  background-color: white;
+  width: 400px;
+  height: 45px;
+  border: 7px solid orange;
+}
+
+.selection ul {
+  padding-left: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.selection li {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.hr-box {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+hr {
+  margin-top: 3px;
+  border: 1px solid orange;
+}
+
+nav {
+  padding-left: 100px;
+  align-items: center;
+  height: 25px;
+  margin-top: 5px;
+}
+
+nav h4 {
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+nav li {
+  color: grey;
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+/* 컨테이너 */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* 컨테이너 공통 h4 태그들 */
+.container h4 {
+  width: 100%;
+  padding-left: 10px;
+  background-color: orange;
+  font-weight: 900;
+  margin: 5px 0px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  width: 50%;
+}
+
+main img {
+  height: 300px;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cards div {
+  background-color: antiquewhite;
+  flex: 1;
+  padding: 25px 0px;
+  margin: 2px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer; /*마우스 커서 포인터로*/
+}
+
+.cards div:hover {
+  background-color: whitesmoke;
+}
+
+.manual ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0; /* 리스트 패딩 제거 */
+}
+
+.manual ul img {
+  display: block; /* 이미지를 블록 요소로 설정 */
+  width: auto; /* 자동 너비 조정 */
+  height: 120px; /* 모든 이미지에 동일한 높이 지정 */
+  margin: 0 auto 20px; /*위 좌우 아래*/
+}
+
+.manual li {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 항목을 중앙 정렬 */
+  flex: 1;
+  padding: 20px;
+  border-bottom: 5px solid whitesmoke;
+}
+
+.manual li p {
+  text-align: left;
+  font-size: 16px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 25%;
+}
+
+/* 로그인 폼 */
+.login-form {
+  background-color: whitesmoke;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* id-pw 수직 배치 */
+.id-pw {
+  display: flex;
+  flex-direction: column;
+}
+
+/* login과 input 묶기 */
+.login-group {
+  display: flex;
+  align-items: center; /* 버튼을 입력 필드와 같은 높이에 배치 */
+  margin-bottom: 10px; /* 로그인 섹션과 회원가입 버튼 사이의 간격 */
+}
+
+/* 라벨묶, input 묶기 */
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* 입력 필드 간의 간격 */
+  background-color: rgb(255, 234, 196);
+  padding: 5px;
+}
+
+.input-group label {
+  min-width: 30px; /* 레이블의 최소 너비 */
+  text-align: right;
+  margin-right: 10px;
+}
+
+.input-group input {
+  width: 180px; /* 입력 필드의 너비 */
+  padding: 5px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  height: 60px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #cc8400;
+}
+
+.sbc img {
+  width: 100%;
+}
+
+.logo-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-box div {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.logo-box img {
+  width: 40%;
+  margin: auto;
+}
