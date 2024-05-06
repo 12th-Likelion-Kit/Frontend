@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header {
+    margin-top: 15px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    margin-right: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.search, nav, nav ul{
+    display: flex;
+}
+
+.search {
+    align-items: center;
+}
+
+.search button {
+    width: 70px;
+    height: 45px;
+    background-color: orange;
+    border: 7px solid orange;
+}
+
+.search-box{
+    background-color: white;
+    width: 400px;
+    height: 45px;
+    border: 7px solid orange;
+}
+
+.search-box input {
+    width: 100%; /* 입력 필드의 너비를 부모 요소에 맞게 100%로 설정 */
+    height: 100%;
+    padding : 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    outline: none;
+}
+
+.selection ul{
+    padding-left: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.selection li{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.hr-box {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+hr{
+    margin-top: 3px;
+    border: 1px solid orange;
+}
+
+nav {
+    padding-left: 100px;
+    align-items: center;
+    height: 25px;
+    margin-top: 5px;
+}
+
+nav h4 {
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+nav li { 
+    color: gray;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+}
+
+.contents h4{
+    background-color: orange;
+    border: 5px solid orange;
+    padding-left: 10px;
+}
+
+.camp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}  
+
+.camp div {
+    background-color: antiquewhite;
+    font-weight: bold;
+    flex: 1;
+    padding: 20px 0px;
+    margin: 2px;
+    text-align: center;
+}
+
+main{
+    width: 500px;
+    height: 100%;
+}
+
+.slogan img {
+    margin-right: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.track{
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    text-align: center;
+}
+
+.track div{
+    flex: 1;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    margin: 0px 5px;
+}
+
+.track img{
+    margin: 20px 5px;
+    width: 60%;
+}
+
+.track p{
+    margin: 10px 5px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+    height: 100%;
+}
+
+.login{
+    background-color: whitesmoke;
+    align-items: row;
+}
+.login button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px;
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+
+.login-group{
+    display: flex;
+}
+
+.login-box{
+    font-size: 15px;
+    margin: 10px 10px;
+    background-color: antiquewhite;
+    align-items: row;
+    margin-bottom: 10px;
+}
+
+.login-box label{
+    font-weight: bold;
+    border: 15px;
+    min-width: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.login-box input{
+    font-size: 20px;
+    width: 60%;
+    margin: 10px;
+    border: none;
+}
+
+.signup button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px;
+    border: none;
+    width: 100%;
+    height: 45px;
+}
+
+.sbc{
+    display: flex;
+    justify-content: center;
+}
+
+.sbc img{
+    width: 80%;
+}
+
+.candidate img{
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
