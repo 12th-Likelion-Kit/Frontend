@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    justify-content: center;
+    display: flex;
+    height: 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.topNav ul {
+    float: right;
+    display: flex;
+}
+
+.topNav ul li {
+    list-style: none;
+    margin-right: 10px;
+    text-decoration: underline;
+    color: gray;   
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.searchInput {
+    width: 400px;
+    height: 50px;
+    border: 5px solid orange;
+}
+
+.searchBtn {
+    width: 80px;
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.nav {
+    padding: 30px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+hr {
+    border: 1px solid orange;
+    margin-bottom: 2px;
+}
+
+.nav div {
+    padding-left: 100px;
+    display: flex;
+    height: 40px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.nav div p {
+    font-size: 18px;
+}
+
+.nav div ul {
+    display: flex;
+}
+
+.nav div ul li {
+    list-style: none;
+    margin-left: 20px;
+    color: gray;   
+}
+
+.main {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 500px;
+}
+
+.section img {
+    width: 500px;
+}
+
+.section .title {
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.section .sec1 .content {
+    font-size: 0;
+}
+
+.section .sec1 .content .boot {
+    display: inline-block;
+    width: 165px;
+    height: 60px;
+    background-color: antiquewhite;
+    margin-right: 2.5px;
+    margin-top: 2.5px;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section .sec1 .content .boot:nth-child(3n) {
+    margin-right: 0;
+}
+
+.section .sec2 .content {
+    font-size: 0;
+}
+
+.section .sec2 .content .track {
+    display: inline-block;
+    width: calc(500px / 3);
+    height: 260px;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.section .sec2 .content .track img {
+    width: 100px;
+    padding-top: 40px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.section .sec2 .content .track .desc {
+    display: flex;
+    height: 100px;
+    margin-top: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.side {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.login {
+    padding: 10px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.loginInput {
+    display: flex;
+}
+
+.login .inputs {
+    width: 180px;
+    background-color: antiquewhite;
+}
+
+.login .inputs .wrap {
+    display: flex;
+}
+
+.login .inputs .wrap p {
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.login .inputs .wrap .input {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.login .loginBtn {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: darkorange;
+    font-size: 20px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.login .signupBtn {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: darkorange;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sideBanner {
+    width: 100%;
+}
+
+.sideSection {
+    font-size: 0;
+}
+
+.sideSection .title {
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.sideSection .preLogos {
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+}
+
+.sideSection .preLogos img {
+    display: flex;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
